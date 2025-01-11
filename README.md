@@ -16,6 +16,10 @@ gh repo create <repo-name> --public --source=. && git push -u origin main
 > If you need to use special characters in your question such as `?`, `&`, etc., you can wrap
 > your question in quotes.
 
+#### Why?
+Way too many fully-customizable, full terminal chat tools out there.
+All of them are cool but I just wanted to get a quick copy-paste answer,
+not a full dicussion and explanation.
 
 
 #### Development
