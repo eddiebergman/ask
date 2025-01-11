@@ -28,7 +28,11 @@ A future development on this will be for personal preference and usage.
 ## Installation
 
 ### Grab the release binary
-todo links
+The only available binary is the one I could easily build on my system,
+`x86_64-unknown-linux-gnu`. If you need a binary for a different platform,
+please build it from source.
+
+Release page: https://github.com/eddiebergman/ask/releases
 
 ### Build from source
 ```bash
