@@ -35,7 +35,7 @@ todo links
 git clone git@github.com:eddiebergman/ask.git
 cd ask
 cargo build --release
-./target/release/ask How do I make a binary file on my system usable from everywhere?
+./target/release/ask "How do I make a binary file on my system usable from everywhere?"
 ```
 
 The build has been optimized mainly for a smaller binary size, as the
