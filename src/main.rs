@@ -56,7 +56,10 @@ fn main() {
         let msg_start = start + msg_start_key.len() + 1;
         if let Some(end) = text[msg_start..].find(msg_end_key) {
             let msg_end = msg_start + end;
-            let content = &text[msg_start..msg_end].trim().replace("\\n", "\n");
+            let content = &text[msg_start..msg_end]
+                .trim()
+                .replace("\\n", "\n")
+                .replace("\\\"", "\"");
             println!("{}", content[0..content.len() - 2].trim());
         } else {
             println!("{}", text.trim());

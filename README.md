@@ -34,6 +34,19 @@ please build it from source.
 
 Release page: https://github.com/eddiebergman/ask/releases
 
+Once downloaded, you'll likely have to allow execution of the binary:
+```bash
+chmod +x /path/to/download/ask
+```
+
+If you want to use the binary from anywhere, as shown in the examples above,
+You'll need to add it to your path.
+
+```bash
+ask "how do I add a binary at ~/Downloads/ask so I can run it everywhere?"
+mv ~/Downloads/ask /usr/local/bin/ && chmod +x /usr/local/bin/ask
+```
+
 ### Build from source
 ```bash
 git clone git@github.com:eddiebergman/ask.git
